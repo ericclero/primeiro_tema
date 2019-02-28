@@ -1,3 +1,18 @@
+//Cria Cores do tema
+$my-color-1: #00A1FF;
+$my-color-2: #8DE971;
+$my-color-3: #FFF36D;
+$my-color-4: #FF7CD6;
+$my-color-5: #E65F5C;
+ 
+$theme-colors:(
+    "my-color-1": $my-color-1,
+    "my-color-2": $my-color-2,
+    "my-color-3": $my-color-3,
+    "my-color-4": $my-color-4,
+    "my-color-5": $my-color-5
+);
+
 //Importa o Bootstrap
 @import "node_modules/bootstrap/scss/bootstrap";
 
